@@ -6,9 +6,12 @@
 body{
   color: grey;
 }
+ul{
+  list-style: none;
+}
 header > .header-wrapper{
   height: 80px;
-  width: 70%;
+  width: 80%;
   margin: auto;
   flex-flow: row nowrap;
   justify-content: space-between;
@@ -44,16 +47,16 @@ a.active{
   padding: 5px;
 }
 
-.box-prices{
+.box{
   position: relative;
 }
 
 .drop-menu{
   position: absolute;
-  top: calc(100% + 15px);
+  top: calc(99%);
   left: -20px;
   display: none;
-  padding: 7px 20px;
+  padding: 25px 20px;
   min-width: 120px;
   box-shadow: 1px 1px 10px 1px #ccc;
 }
@@ -63,4 +66,8 @@ a.active{
 }
 a:hover{
   color:black;
+}
+
+.drop-menu.active{
+  display: block;
 }

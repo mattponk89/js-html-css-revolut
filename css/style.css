@@ -56,7 +56,7 @@ a.active{
 
 }
 
-.drop-menu{
+.dropMenu{
   position: absolute;
   top: 99%;
   left: -5px;
@@ -64,7 +64,7 @@ a.active{
   padding: 25px 20px;
   box-shadow: 1px 1px 10px 1px #ccc;
 }
-.drop-menu > a{
+.dropMenu > a{
   display: block;
   margin-bottom: 5px
 }
@@ -72,9 +72,9 @@ a:hover{
   color:black;
 }
 
-/* .drop-menu.active{
-  display: block;
-} */
-.box:hover > .drop-menu {
+.dropMenu.active{
   display: block;
 }
+/* .box:hover > .drop-menu {
+  display: block;
+} */
